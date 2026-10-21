@@ -1,0 +1,8 @@
+name: excalidraw-local
+
+services:
+  excalidraw:
+    image: excalidraw/excalidraw:latest
+    ports:
+      - "127.0.0.1:8787:80"
+    restart: unless-stopped
